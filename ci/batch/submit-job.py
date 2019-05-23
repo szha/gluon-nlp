@@ -13,7 +13,7 @@ parser.add_argument('--profile', help='profile name of aws account.', type=str,
 parser.add_argument('--name', help='name of the job', type=str, default='dummy')
 parser.add_argument('--job-queue', help='name of the job queue to submit this job', type=str,
                     default='gluon-nlp-jobs')
-parser.add_argument('--job-definition', help='name of the job job definition', type=str,
+parser.add_argument('--job-definition', help='name of the job definition', type=str,
                     default='gluon-nlp-jobs:4')
 parser.add_argument('--source-ref',
                     help='ref in GluonNLP main github. e.g. master, refs/pull/500/head',
